@@ -4,5 +4,5 @@ jobs:
   print-hello-world:
     runs-on: ubuntu-latest
     steps:
-      - run: python3 ./test.py
+      - run: echo "hello world"
 
