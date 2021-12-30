@@ -1,0 +1,7 @@
+name: first-github-action
+on: [push]
+jobs:
+        first-job:
+                runs-on: ubuntu:latest
+                steps:
+                        - run: echo "python3 test.py"
