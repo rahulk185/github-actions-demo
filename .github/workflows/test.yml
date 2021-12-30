@@ -1,7 +1,8 @@
-name: first-github-action
+name: my-first-github-job
 on: [push]
 jobs:
-        first-job:
-                runs-on: ubuntu:latest
-                steps:
-                        - run: echo "python3 test.py"
+  print-hello-world:
+    runs-on: ubuntu:latest
+    steps:
+      - run: echo "python3 test.py"
+		
